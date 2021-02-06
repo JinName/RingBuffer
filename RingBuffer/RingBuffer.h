@@ -24,5 +24,6 @@ public:
 	bool	Push(char* _cpData, int _iDataSize);
 	bool	Pop(char* _cpData, int _iDataSize);
 
+	char*	GetWritablePosition();
 };
 

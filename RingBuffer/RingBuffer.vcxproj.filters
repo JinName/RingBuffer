@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\RingBuffer">
       <UniqueIdentifier>{f78dd55b-96bf-418f-810a-1a11f54a7184}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CircularBuffer">
+      <UniqueIdentifier>{0c2dd230-bd88-4619-b629-4d9908189d66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="RingBuffer.cpp">
       <Filter>소스 파일\RingBuffer</Filter>
     </ClCompile>
+    <ClCompile Include="CircularBuffer.cpp">
+      <Filter>소스 파일\CircularBuffer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RingBuffer.h">
       <Filter>소스 파일\RingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>소스 파일\CircularBuffer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

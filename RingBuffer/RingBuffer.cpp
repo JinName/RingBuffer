@@ -90,3 +90,8 @@ bool CRingBuffer::Pop(char* _cpData, int _iDataSize)
 
 	return true;
 }
+
+char* CRingBuffer::GetWritablePosition()
+{
+	return m_cBuffer + (m_iRearPos + 1) % RINGBUF_SIZE;
+}
