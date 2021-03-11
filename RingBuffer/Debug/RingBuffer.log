@@ -1,2 +1,10 @@
 ﻿  main.cpp
+D:\Code Workspace\RingBuffer\RingBuffer\RingBuffer.h(2,1): warning C4005: 'MAX_PACKET_SIZE': 매크로 재정의
+D:\Code Workspace\RingBuffer\RingBuffer\CircularBuffer.h(3): message : 'MAX_PACKET_SIZE'의 이전 정의를 참조하십시오.
+D:\Code Workspace\RingBuffer\RingBuffer\RingBuffer.h(3,1): warning C4005: 'THREAD_COUNT': 매크로 재정의
+D:\Code Workspace\RingBuffer\RingBuffer\CircularBuffer.h(4): message : 'THREAD_COUNT'의 이전 정의를 참조하십시오.
+D:\Code Workspace\RingBuffer\RingBuffer\RingBuffer.h(5,1): warning C4005: 'RINGBUF_SIZE': 매크로 재정의
+D:\Code Workspace\RingBuffer\RingBuffer\CircularBuffer.h(5): message : 'RINGBUF_SIZE'의 이전 정의를 참조하십시오.
+D:\Code Workspace\RingBuffer\RingBuffer\PacketList.h(7,1): warning C4005: 'MAX_MSG_LEN': 매크로 재정의
+D:\Code Workspace\RingBuffer\RingBuffer\stdafx.h(22): message : 'MAX_MSG_LEN'의 이전 정의를 참조하십시오.
   RingBuffer.vcxproj -> D:\Code Workspace\RingBuffer\Debug\RingBuffer.exe
